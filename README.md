@@ -58,3 +58,14 @@ $ gradle test
 ```shell
 $ java -jar dist/TrainsAndTowns.jar graph.txt commands.txt
 ```
+
+
+**Import Project with IntelliJ IDEA**
+
+To import the project using IntelliJ, do the following:
+
+- ` File -> New -> Project from Existing Sources` from the main menu.
+- Browse to the project directory and click `OK`.
+- Select `Gradle` as build tool and click `Next`.
+- Specify `Gradle home` and make sure the `Gradle JVM` is set to version `1.8.x`.
+- Click `Finish`.
